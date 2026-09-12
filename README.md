@@ -46,10 +46,6 @@ Class weighting was used for Logistic Regression and Random Forest. XGBoost used
 | XGBoost | 0.633 | **0.437** | 0.616 | 0.511 | 0.678 |
 | Random Forest | **0.649** | 0.411 | 0.296 | 0.344 | 0.608 |
 
-### Model performance comparison
-
-![Comparison of Logistic Regression, XGBoost, and Random Forest performance](images/ModelPerformanceComparison.png)
-
 Logistic Regression was selected because it identified 63.1% of the students who withdrew and achieved the highest ROC-AUC. Random Forest produced the highest accuracy, but its recall of 29.6% meant it missed most withdrawal cases.
 
 For Logistic Regression, the test-set confusion matrix was:
