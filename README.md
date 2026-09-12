@@ -103,7 +103,7 @@ university-dropout-prediction/
 │   └── Dropout_Prediction_Presentation.pptx
 └── images/
     ├── ClassBalance_Withdrawn_vs_NonWithdrawnStudents.png
-    ├── ConfusionMatrix_LogistricRegression.png
+    ├── ConfusionMatrix_LogisticRegression.png
     ├── Distribution_StudiedCredits.png
     ├── ModelPerformanceComparison.png
     ├── WithdrawalRate_AgeBand.png
