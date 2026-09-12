@@ -21,8 +21,6 @@ The target variable, `is_withdrawn`, was created from `final_result`:
 
 The data contains 10,156 withdrawal records, representing 31.16% of the observations. The `imd_band` field contains 1,111 missing values. No duplicate rows were found.
 
-`studentRegistration.csv` accompanies the project files but is not used by the completed notebook or the reported models. Registration timing is a potential source of additional features for future development.
-
 ## Analysis process
 
 The notebook performs the following steps:
@@ -47,6 +45,10 @@ Class weighting was used for Logistic Regression and Random Forest. XGBoost used
 | Logistic Regression | 0.629 | 0.435 | **0.631** | **0.515** | **0.681** |
 | XGBoost | 0.633 | **0.437** | 0.616 | 0.511 | 0.678 |
 | Random Forest | **0.649** | 0.411 | 0.296 | 0.344 | 0.608 |
+
+### Model performance comparison
+
+![Comparison of Logistic Regression, XGBoost, and Random Forest performance](images/ModelPerformanceComparison.png)
 
 Logistic Regression was selected because it identified 63.1% of the students who withdrew and achieved the highest ROC-AUC. Random Forest produced the highest accuracy, but its recall of 29.6% meant it missed most withdrawal cases.
 
