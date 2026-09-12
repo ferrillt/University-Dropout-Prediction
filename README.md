@@ -98,16 +98,16 @@ university-dropout-prediction/
 │   ├── README.md
 │   └── studentInfo.csv
 ├── notebooks/
-│   └── dropout_prediction.ipynb
+│   └── Dropout_Prediction.ipynb
 ├── presentation/
-│   └── dropout_prediction_presentation.pptx
-├── images/
-│   ├── ClassBalance_Withdrawn_vs_NonWithdrawnStudents.png
-│   ├── ConfusionMatrix_LogistricRegression.png
-│   ├── Distribution_StudiedCredits.png
-│   ├── ModelPerformanceComparison.png
-│   ├── WithdrawalRate_AgeBand,png
-│   ├── WithdrawnRate_HighestEducation.png
+│   └── Dropout_Prediction_Presentation.pptx
+└── images/
+    ├── ClassBalance_Withdrawn_vs_NonWithdrawnStudents.png
+    ├── ConfusionMatrix_LogistricRegression.png
+    ├── Distribution_StudiedCredits.png
+    ├── ModelPerformanceComparison.png
+    ├── WithdrawalRate_AgeBand.png
+    └── WithdrawnRate_HighestEducation.png
 ```
 
 ## Tools
