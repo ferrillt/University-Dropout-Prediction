@@ -95,9 +95,8 @@ Predictions require human review because the data may reflect historical or stru
 university-dropout-prediction/
 ├── README.md
 ├── data/
-│   ├── README.md
 │   └── studentInfo.csv
-├── notebooks/
+├── notebook/
 │   └── Dropout_Prediction.ipynb
 ├── presentation/
 │   └── Dropout_Prediction_Presentation.pptx
@@ -124,6 +123,24 @@ university-dropout-prediction/
 Kuzilek, J., Hlosta, M., & Zdrahal, Z. (2017). Open University Learning Analytics dataset. *Scientific Data, 4*, Article 170171. https://doi.org/10.1038/sdata.2017.171
 
 Dataset: https://analyse.kmi.open.ac.uk/open_dataset
+
+## Running the analysis
+
+Install the required packages:
+
+    pip install pandas numpy matplotlib scikit-learn xgboost jupyter
+
+Clone the repository:
+
+    git clone https://github.com/ferrillt/University-Dropout-Prediction.git
+
+Move into the notebook folder:
+
+    cd University-Dropout-Prediction/notebook
+
+Start Jupyter Notebook:
+
+    jupyter notebook Dropout_Prediction.ipynb
 
 ## Author
 
