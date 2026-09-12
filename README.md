@@ -63,8 +63,6 @@ These coefficients describe associations within this dataset. They do not establ
 
 The subgroup review identified meaningful differences in recall and false-positive rates. These differences reinforce the need for fairness review, threshold testing, and continued monitoring before any institutional use.
 
-### Model performance comparison
-
 ![Withdrawal Rate by Education Level](images/WithdrawnRate_HighestEducation.png)
 
 ## Responsible use
