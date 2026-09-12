@@ -128,4 +128,3 @@ Dataset: https://analyse.kmi.open.ac.uk/open_dataset
 ## Author
 
 Teresa Ferrill  
-Bellevue University, DSC 630 Predictive Analytics
