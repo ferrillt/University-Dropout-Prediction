@@ -1,5 +1,7 @@
 # University Dropout Prediction
 
+![Comparison of dropout-prediction models](images/ModelPerformanceComparison.png)
+
 ## Project overview
 
 This project uses machine learning to identify students who may be at risk of withdrawing from an online university course. The analysis compares Logistic Regression, Random Forest, and XGBoost using demographic, academic, and course-enrollment information from the Open University Learning Analytics Dataset (OULAD).
@@ -121,23 +123,28 @@ university-dropout-prediction/
 
 ## Data source
 
-Kuzilek, J., Hlosta, M., & Zdrahal, Z. (2017). Open University Learning Analytics dataset. *Scientific Data, 4*, Article 170171. https://doi.org/10.1038/sdata.2017.171
+Kuzilek, J., Hlosta, M., & Zdrahal, Z. (2017). Open University Learning Analytics dataset. *Scientific Data, 4*, Article 170171. [https://doi.org/10.1038/sdata.2017.171](https://doi.org/10.1038/sdata.2017.171)
 
-Dataset: https://analyse.kmi.open.ac.uk/open_dataset
+[View the Open University Learning Analytics Dataset](https://analyse.kmi.open.ac.uk/open_dataset)
 
-## Running the analysis
+## Running the Analysis
 
-Install the required packages:
+### Requirements
 
-    pip install pandas numpy matplotlib scikit-learn xgboost jupyter
+Python 3 is required to run the analysis.
 
 Clone the repository:
 
-    git clone https://github.com/ferrillt/University-Dropout-Prediction.git
+```bash
+git clone https://github.com/ferrillt/University-Dropout-Prediction.git
 
-Move into the notebook folder:
+cd University-Dropout-Prediction
 
-    cd University-Dropout-Prediction/notebook
+cd notebook
+
+jupyter notebook Dropout_Prediction.ipynb
+
+pip install -r requirements.txt
 
 Start Jupyter Notebook:
 
