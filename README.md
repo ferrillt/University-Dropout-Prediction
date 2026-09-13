@@ -94,6 +94,7 @@ Predictions require human review because the data may reflect historical or stru
 ```text
 university-dropout-prediction/
 ├── README.md
+├── requirements.txt
 ├── data/
 │   └── studentInfo.csv
 ├── notebook/
