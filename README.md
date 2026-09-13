@@ -137,18 +137,33 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/ferrillt/University-Dropout-Prediction.git
+```
 
+Move into the repository:
+
+```bash
 cd University-Dropout-Prediction
+```
 
-cd notebook
+Install the required packages:
 
-jupyter notebook Dropout_Prediction.ipynb
-
+```bash
 pip install -r requirements.txt
+```
 
-Start Jupyter Notebook:
+Move into the notebook folder:
 
-    jupyter notebook Dropout_Prediction.ipynb
+```bash
+cd notebook
+```
+
+Start Jupyter Notebook and open the analysis:
+
+```bash
+jupyter notebook Dropout_Prediction.ipynb
+```
+
+Run the notebook cells in order. The notebook reads `studentInfo.csv` from the adjacent `data` folder.
 
 ## Author
 
