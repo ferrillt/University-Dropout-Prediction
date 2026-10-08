@@ -102,7 +102,7 @@ university-dropout-prediction/
 ├── notebook/
 │   └── Dropout_Prediction.ipynb
 ├── presentation/
-│   └── Dropout_Prediction_Presentation.pptx
+│   └── Dropout_Prediction_Presentation.pdf
 |   └── Dropout_Prediction_Presentation_withAudio.pptx
 └── images/
     ├── ClassBalance_Withdrawn_vs_NonWithdrawnStudents.png
