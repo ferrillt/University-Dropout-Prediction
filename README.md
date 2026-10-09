@@ -101,7 +101,7 @@ university-dropout-prediction/
 │   └── studentInfo.csv
 ├── notebook/
 │   └── Dropout_Prediction.ipynb
-├── presentation/
+├── presentations/
 │   └── Dropout_Prediction_Presentation.pdf
 |   └── Dropout_Prediction_Presentation_withAudio.pptx
 └── images/
