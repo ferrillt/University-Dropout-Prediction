@@ -94,7 +94,7 @@ Predictions require human review because the data may reflect historical or stru
 ## Repository structure
 
 ```text
-university-dropout-prediction/
+University-Dropout-Prediction/
 ├── README.md
 ├── requirements.txt
 ├── data/
