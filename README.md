@@ -101,9 +101,8 @@ University-Dropout-Prediction/
 │   └── studentInfo.csv
 ├── notebook/
 │   └── Dropout_Prediction.ipynb
-├── presentations/
+├── presentation/
 │   └── Dropout_Prediction_Presentation.pdf
-|   └── Dropout_Prediction_Presentation_withAudio.pptx
 └── images/
     ├── ClassBalance_Withdrawn_vs_NonWithdrawnStudents.png
     ├── ConfusionMatrix_LogisticRegression.png
